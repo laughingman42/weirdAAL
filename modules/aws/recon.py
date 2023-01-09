@@ -48,7 +48,7 @@ def module_recon_all():
     brute_clouddirectory_permissions()
     brute_cloudformation_permissions()
     brute_cloudfront_permissions()
-    brute_cloudhsm_permissions()
+    # brute_cloudhsm_permissions() defaults to us-east-1 causing timeout for other region
     brute_cloudhsmv2_permissions()
     brute_cloudsearch_permissions()
     # brute_cloudsearchdomain_permissions() requires a valid cloudsearch domain
